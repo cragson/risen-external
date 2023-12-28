@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="osmium">
+      <UniqueIdentifier>{0146bed4-ab82-4e25-b831-bb9957593068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\Cheat">
+      <UniqueIdentifier>{414d70a1-b1b9-4e3e-bdc2-0846ce3f6983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\Features">
+      <UniqueIdentifier>{b136eb8d-8a39-4bc6-8013-2b3950142b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK">
+      <UniqueIdentifier>{ef6ca312-58b0-471c-b7a8-8eb206174208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\Cheat\Menu">
+      <UniqueIdentifier>{024e5968-0a50-474c-946b-9503711547b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\Features\ESP">
+      <UniqueIdentifier>{4b1d1c48-d8c2-4d5c-b66c-83e82b749663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\CApp">
+      <UniqueIdentifier>{f1a2d631-61ee-4914-8e7e-3cdf9408a605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\EntityManager">
+      <UniqueIdentifier>{8e865d21-4a43-474d-832a-7fcfb06d128b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\SharedBase">
+      <UniqueIdentifier>{8f52d56f-af05-4028-89a7-d6ed8442b727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\PlayerStats">
+      <UniqueIdentifier>{8935fd70-00d0-41f7-9a71-d798497007f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\Features\StatsEditor">
+      <UniqueIdentifier>{822a6c98-db17-48ad-8167-2937706ac91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\EntityManager\eCDynamicEntity">
+      <UniqueIdentifier>{7efaa847-f31b-4527-bea8-bddf1c137139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\SDK\EntityManager\NPC">
+      <UniqueIdentifier>{3c515b9e-95b2-40b9-b3a2-00871c45e969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="risen-external.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Hook\hook.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x86\image_x86.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Overlay\overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Process\process.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_cheat.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="risen_cheat.cpp">
+      <Filter>files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="risen_overlay.cpp">
+      <Filter>files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_skill_hook.cpp">
+      <Filter>files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>files\Cheat\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_esp.cpp">
+      <Filter>files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="app_manager.cpp">
+      <Filter>files\SDK\CApp</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_manager.cpp">
+      <Filter>files\SDK\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_base.cpp">
+      <Filter>files\SDK\SharedBase</Filter>
+    </ClCompile>
+    <ClCompile Include="player_stats.cpp">
+      <Filter>files\SDK\PlayerStats</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_stats_editor.cpp">
+      <Filter>files\Features\StatsEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>files\SDK\EntityManager\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ecdynamicentity.cpp">
+      <Filter>files\SDK\EntityManager\eCDynamicEntity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osmium\Cheat\cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\custom_data_types.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Cheat\Feature\feature.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Hook\hook.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x86\image_x86.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\modules.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Overlay\overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Process\process.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\SharedMemoryInstance\sharedmemoryinstance.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="risen_cheat.hpp">
+      <Filter>files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="risen_overlay.hpp">
+      <Filter>files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_skill_hook.hpp">
+      <Filter>files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\RegisterDumper\registercontext.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.hpp">
+      <Filter>files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>files\Cheat\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp">
+      <Filter>files\Cheat\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_esp.hpp">
+      <Filter>files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="app_manager.hpp">
+      <Filter>files\SDK\CApp</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_manager.hpp">
+      <Filter>files\SDK\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>files\SDK\SharedBase</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_base.hpp">
+      <Filter>files\SDK\SharedBase</Filter>
+    </ClInclude>
+    <ClInclude Include="player_stats.hpp">
+      <Filter>files\SDK\PlayerStats</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_stats_editor.hpp">
+      <Filter>files\Features\StatsEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ecdynamicentity.hpp">
+      <Filter>files\SDK\EntityManager\eCDynamicEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>files\SDK\EntityManager\NPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

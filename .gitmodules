@@ -1,0 +1,3 @@
+[submodule "risen-external/osmium"]
+	path = risen-external/osmium
+	url = git@github.com:cragson/osmium
